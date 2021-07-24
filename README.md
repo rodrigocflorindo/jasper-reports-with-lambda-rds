@@ -1,5 +1,17 @@
-# jasper-reports-with-lambda-rds
-LambdaJReports com JasperReports
-Este repositório hospeda o código para uma função Java Lambda que gera relatórios JasperReports em formato PDF, usando dados consultados de um banco de dados RDS MySQL. A função Lambda deve ser chamada por meio de uma API REST criada no API Gateway.
+## Jasper Reports with Lambda, RDS and API Gateway
 
-Junto com o código de função, este repositório contém um arquivo de modelo para JasperReports criado, "template.jrxml", e um script CloudFormation responsável por lançar os recursos necessários, "jasper-lambda-architecture.json". Ambos os arquivos estão localizados na raiz do repositório.
+This repository hosts the code for a Java Lambda Function that generates JasperReports reports in PDF format, using data queried from an RDS MySQL database.
+The Lambda function is meant to be invoked through a REST API created in API Gateway. This code and repository are part of an AWS Blog Post. You can find an example
+of usage of this code in the Blog Post.
+
+Along with the function code, this repository contains a template file for the JasperReports created in the Blog Post, "template.jrxml", and a CloudFormation script
+responsible for launching the required resources, "jasper-lambda-architecture.json". Both files are located in the root of the repository.
+
+## Security
+
+See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+
+## License
+
+This library is licensed under the MIT-0 License. See the LICENSE file.
+
